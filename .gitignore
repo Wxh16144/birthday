@@ -19,3 +19,8 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+# big file
+/src/assets/video.avi
+/src/assets/video.webm
+/src/assets/video.Ogg
