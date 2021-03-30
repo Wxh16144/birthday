@@ -128,7 +128,6 @@ export default {
       const birthdayMonthDay = formatTime(birthday, "MMdd");
       const currentMonthDay = formatTime(Date.now(), "MMdd");
       const currentYear = formatTime(Date.now(), "yyyy");
-      console.log(birthdayMonthDay, currentMonthDay, currentYear);
 
       // 计算差异
       const differ = (date, year) =>
