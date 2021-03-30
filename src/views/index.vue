@@ -205,9 +205,10 @@ export default {
     },
     getPrizeListsByServer() {
       return fly
-        .get("/birthday-resource/giftLists.json", {
-          _: Date.now()
-        })
+        .get(
+          "https://gist.githubusercontent.com/Wxh16144/45c3aa2ad2e7277dc96262f87caa60ef/raw/giftLists.json",
+          { _: Date.now() }
+        )
         .then(({ status, data = {} }) => {
           if (status === 200 && data.code === 200) {
             this.giftList = data.giftList || [];
