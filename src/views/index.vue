@@ -23,9 +23,9 @@
       video#video(ref="video" poster="@/assets/loading.gif", loop, autoplay,
         :class="theScreen", playsinline, webkit-playsinline,
         x5-video-player-type="h5", preload="auto", x-webkit-airplay="allow", x5-playsinline, x5-video-player-fullscreen="true")
-          source(src="@/assets/video.mp4", type="video/mp4")
+          source(src="//res.cloudinary.com/dqsqnaolc/video/upload/v1663260234/li-birthday/video_e1by5n.mp4", type="video/mp4")
           //- source(src="@/assets/video.Ogg", type="video/ogg")
-          source(src="@/assets/video.webm", type="video/webm")
+          // source(src="@/assets/video.webm", type="video/webm")
       //- //- 弹幕区
       //- vue-seamless-scroll.seamless-warp(:data="bulletScreenList" :class-option="classOption", :class="theScreen")
       //-   ul.item
