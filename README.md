@@ -4,6 +4,8 @@
 
 [预览地址](https://wxh16144.github.io/birthday/)
 
+![扫码体验](./qr-code.png)
+
 **体验**
 
 - 打开地址后需要进行注册。
